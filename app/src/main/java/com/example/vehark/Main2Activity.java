@@ -21,6 +21,7 @@ public class Main2Activity extends AppCompatActivity {
         CardView cardViewFillLicense = findViewById(R.id.cardviewlicense);
         CardView cardViewProfile = findViewById(R.id.peronalInfoCard);
         CardView cardViewBookASlot = findViewById(R.id.bookaslot);
+        CardView cardViewSlotList = findViewById(R.id.Help);
 
         cardViewFindParking.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,6 +74,14 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(Main2Activity.this,SlotBookActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardViewSlotList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent  intent = new Intent(Main2Activity.this,ListOfParkings.class);
                 startActivity(intent);
             }
         });

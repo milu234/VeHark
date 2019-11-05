@@ -17,6 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ListOfParkings"></activity>
+        <activity android:name=".PayParkDetails" />
+        <activity android:name=".PayPark" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".LoginForm" />
         <activity android:name=".SlotBookActivity" />
         <activity android:name=".ProfileEdit" />
         <activity android:name=".ProfilePage" />

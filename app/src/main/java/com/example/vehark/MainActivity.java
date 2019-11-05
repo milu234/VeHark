@@ -64,12 +64,22 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         editTextPhone = findViewById(R.id.number);
         editTextCode = findViewById(R.id.code);
+        payAndPark = findViewById(R.id.payandPark);
 
 
         relay1 = (RelativeLayout) findViewById(R.id.relay1);
         relay2 = (RelativeLayout) findViewById(R.id.rellay2);
 
         handler.postDelayed(runnable , 2000);
+
+
+        payAndPark.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,LoginForm.class);
+                startActivity(intent);
+            }
+        });
 
 
         findViewById(R.id.getCode).setOnClickListener(new View.OnClickListener() {

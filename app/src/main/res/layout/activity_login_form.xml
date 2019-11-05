@@ -7,8 +7,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/grad_bg"
 
-    android:animateLayoutChanges="true"
-    tools:context=".ProfileActivity">
+
+    tools:context=".MainActivity">
 
 
     <RelativeLayout
@@ -39,11 +39,21 @@
                 android:id="@+id/tv_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Profile"
+                android:text="Login"
                 android:textSize="30sp"
                 android:textColor="@color/white"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-medium"/>
+
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+
 
             <LinearLayout
                 android:id="@+id/linlay1"
@@ -59,18 +69,16 @@
                     android:orientation="vertical">
 
                     <TextView
-
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Name"
+                        android:text="Email-Id"
                         android:textAllCaps="true"
                         android:fontFamily="sans-serif-light"
                         android:textSize="15sp"
                         android:textColor="@color/white"/>
 
                     <EditText
-                        android:id="@+id/name"
-
+                        android:id="@+id/email_id_login"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:background="@drawable/et_bg"
@@ -88,7 +96,6 @@
 
 
 
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -98,45 +105,14 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Enter your Age"
+                        android:text="Enter Password"
                         android:textAllCaps="true"
                         android:fontFamily="sans-serif-light"
                         android:textSize="15sp"
                         android:textColor="@color/white"/>
 
                     <EditText
-                        android:id="@+id/age"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:background="@drawable/et_bg"
-                        android:fontFamily="sans-serif-light"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:textColor="@color/white"
-                        android:textSize="15sp"
-                        android:layout_marginTop="5dp" />
-
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Enter your License"
-                        android:textAllCaps="true"
-                        android:fontFamily="sans-serif-light"
-                        android:textSize="15sp"
-                        android:textColor="@color/white"/>
-
-                    <EditText
-                        android:id="@+id/license"
+                        android:id="@+id/password_login"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:background="@drawable/et_bg"
@@ -156,12 +132,12 @@
 
 
             <Button
-                android:id="@+id/save_info"
+                android:id="@+id/login_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_below="@id/linlay1"
                 android:layout_marginTop="50dp"
-                android:text="Save"
+                android:text="Login Now"
 
                 android:textAllCaps="true"
                 android:background="@drawable/btn_bg"
@@ -204,11 +180,11 @@
 
 
         <Button
-            android:id="@+id/payandPark"
+            android:id="@+id/sign_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/transparent"
-            android:text="Pay and Park"
+            android:text="Sign Up"
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:fontFamily="sans-serif"
