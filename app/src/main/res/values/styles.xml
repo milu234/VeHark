@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="names">
+        <item name="android:textColor">#ff19769f</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!-- Text style for "peditricia" -->
+    <!-- Add this snippet to styles.xml. -->
+    <style name="description">
+        <item name="android:textColor">#ff95989a</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <!-- Text style for "dishant_ho" -->
+    <!-- Add this snippet to styles.xml. -->
+    <style name="doctor_address">
+        <item name="android:textColor">#ff51565f</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+
+    <!-- Text style for "4.5" -->
+    <!-- Add this snippet to styles.xml. -->
+    <style name="rating">
+        <item name="android:textColor">#ff19769f</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Text style for "about" -->
+    <!-- Add this snippet to styles.xml. -->
+    <style name="about">
+        <item name="android:textColor">#ff3d3d3d</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Text style for "the_doctor" -->
+    <!-- Add this snippet to styles.xml. -->
+    <style name="content">
+        <item name="android:textColor">#ff95989a</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

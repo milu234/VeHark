@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "351605574287",
+    "firebase_url": "https://vehark-4ef4e.firebaseio.com",
+    "project_id": "vehark-4ef4e",
+    "storage_bucket": "vehark-4ef4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351605574287:android:ee1999e483f8d23d737efa",
+        "android_client_info": {
+          "package_name": "com.example.vehark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351605574287-bbjgrq74o0pac5bjsjklkuc8vk00fp9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vehark",
+            "certificate_hash": "1f78f86d11e86dc20da5cd9d1ea0cef2f68fafc7"
+          }
+        },
+        {
+          "client_id": "351605574287-cq8b67kvqtp2j9udjrq9d1u88tvnqcsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkiW5Y8lZb_PDR2VhDZ7wmY_oCqqsXYmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351605574287-cq8b67kvqtp2j9udjrq9d1u88tvnqcsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
