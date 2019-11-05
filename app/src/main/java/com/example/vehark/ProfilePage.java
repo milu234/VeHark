@@ -33,8 +33,9 @@ public class ProfilePage extends AppCompatActivity {
 
         dname = findViewById(R.id.displayName);
         dage = findViewById(R.id.displayAge);
-        dnumber = findViewById(R.id.displayNumber);
         dlicense = findViewById(R.id.displayLicense);
+        dnumber = findViewById(R.id.displayNumber);
+
         btnedit = findViewById(R.id.edit);
 
         firebaseAuth = FirebaseAuth.getInstance();
@@ -53,12 +54,14 @@ public class ProfilePage extends AppCompatActivity {
                 dage.setText(customer.getAge());
                  eage = customer.getAge();
 
+                dlicense.setText(customer.getLicense());
+                elicense = customer.getLicense();
+
 
                 dnumber.setText(customer.getNumber());
                 enumber = customer.getNumber();
 
-                dlicense.setText(customer.getLicense());
-                elicense = customer.getLicense();
+
 
 
             }

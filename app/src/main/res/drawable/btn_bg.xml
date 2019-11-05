@@ -29,14 +29,14 @@
         android:state_focused="true">
         <shape
             android:innerRadiusRatio="1"
-            android:shape="rectangle" >
+            android:shape="oval" >
             <solid android:color="#5a97f5" />
 
             <padding
-                android:bottom="5dp"
+                android:bottom="10dp"
                 android:left="10dp"
                 android:right="10dp"
-                android:top="5dp" />
+                android:top="10dp" />
         </shape></item>
 
     <!-- button pressed -->
@@ -45,7 +45,7 @@
         android:state_focused="false">
         <shape
             android:innerRadiusRatio="1"
-            android:shape="rectangle" >
+            android:shape="oval" >
             <solid android:color="#478df9"/>
             <padding
                 android:bottom="10dp"

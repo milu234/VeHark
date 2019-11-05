@@ -51,18 +51,20 @@ public class ProfileActivity extends AppCompatActivity {
         save_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                number = phone;
+
 
                 String name_c = name.getText().toString();
-                String license_id = license.getText().toString();
                 String age_id = age.getText().toString();
+                String license_id = license.getText().toString();
+
+                number = phone;
 
 
                 Customer customer = new Customer(
                         name_c,
-                        number,
+                        age_id,
                         license_id,
-                        age_id
+                        number
                 );
                 FirebaseDatabase.getInstance().getReference("Customer")
                         .child(FirebaseAuth.getInstance().getCurrentUser().getUid())

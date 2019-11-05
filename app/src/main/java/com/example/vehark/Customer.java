@@ -3,18 +3,18 @@ package com.example.vehark;
 
 public class Customer {
 
-    public String name, number, license, age;
+    public String name, age, license, number;
 
     public Customer() {
 
     }
 
 
-    public Customer(String name, String number, String license, String age) {
+    public Customer(String name, String age, String license, String number) {
         this.name = name;
-        this.number = number;
-        this.license = license;
         this.age = age;
+        this.license = license;
+        this.number = number;
     }
 
     public String getName() {
