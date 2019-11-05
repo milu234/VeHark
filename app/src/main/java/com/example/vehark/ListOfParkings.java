@@ -47,6 +47,21 @@ public class ListOfParkings extends AppCompatActivity {
 
         getAllPayAndPark();
 
+listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+            Intent intent = new Intent(ListOfParkings.this, PayAndParkInfo.class);
+            intent.putExtra("Name", payAndParks.get(i).getName());
+            intent.putExtra("GST",payAndParks.get(i).getGst());
+            intent.putExtra("Address",payAndParks.get(i).getAddress());
+            intent.putExtra("OpeningHours",payAndParks.get(i).getOh());
+            startActivity(intent);
+
+
+    }
+});
+
         }
 
     private void getAllPayAndPark() {
@@ -106,14 +121,20 @@ public class ListOfParkings extends AppCompatActivity {
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
+
+
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(R.layout.custom_list_of_parkings, viewGroup, false);
-            final TextView txtName, txtAddress;
+            final TextView txtName, txtAddress,txtoh;
             txtName = view.findViewById(R.id.name);
             txtAddress = view.findViewById(R.id.address);
+            txtoh = view.findViewById(R.id.opens);
 
             txtName.setText(payAndParks.get(i).getName());
             txtAddress.setText(payAndParks.get(i).getAddress());
+            txtoh.setText(payAndParks.get(i).getOh());
+
+            txtoh.append(" .00 AM - " + payAndParks.get(i).getOh() + " .00 AM");
 
 
 

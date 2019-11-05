@@ -77,7 +77,7 @@ public class LoginForm extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
-                                    startActivity(new Intent(getApplicationContext(),PayParkDetails.class));
+                                    startActivity(new Intent(getApplicationContext(),ListOfParkings.class));
                                     Toast.makeText(LoginForm.this, "Login Succesful", Toast.LENGTH_SHORT).show();
 
                                 } else {

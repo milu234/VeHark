@@ -60,7 +60,7 @@ public class PayParkDetails extends AppCompatActivity {
                         .setValue(payAndPark).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
-                        Intent intent = new Intent(PayParkDetails.this, PayPark.class);
+                        Intent intent = new Intent(PayParkDetails.this, LoginForm.class);
                         startActivity(intent);
 
                     }

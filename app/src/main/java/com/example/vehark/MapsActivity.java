@@ -310,7 +310,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
                 break;
 
-            case R.id.nearby_hotels:
+            case R.id.nearby_parkings:
 
 
                 mMap.clear();
@@ -388,7 +388,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
-            case R.id.nearby_banks:
+            case R.id.nearby_carrepair:
                 mMap.clear();
                 url = getUrl(latitude,longitude,car_repair);
                 transferData[0] = mMap;
@@ -402,7 +402,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
-            case R.id.nearby_parking:
+            case R.id.nearby_carwash:
                 mMap.clear();
                 url = getUrl(latitude,longitude,car_wash);
                 transferData[0] = mMap;

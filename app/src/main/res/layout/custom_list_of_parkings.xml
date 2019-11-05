@@ -12,15 +12,15 @@
         android:orientation="horizontal">
 
 
-<!--        <ImageView-->
-<!--            android:background="@drawable/image_style"-->
-<!--            android:id="@+id/imageView"-->
-<!--            android:layout_width="60dp"-->
-<!--            android:layout_height="60dp"-->
-<!--            android:layout_marginLeft="40dp"-->
-<!--            android:layout_marginTop="27dp"-->
-<!--            android:layout_marginStart="40dp"-->
-<!--            tools:srcCompat="@tools:sample/avatars"/>-->
+        <ImageView
+            android:background="@drawable/image_style"
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/payandpark"/>
 
 
 
@@ -43,6 +43,20 @@
 
 
 
+            <TextView
+                android:theme="@style/description"
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+
+                android:layout_marginTop="5dp"
+                android:text="We take care of your Vehicle" />
+
+
+
+
 
             <TextView
                 android:theme="@style/doctor_address"
@@ -54,6 +68,17 @@
                 android:drawableLeft="@drawable/ic_add_location_black_24dp"
                 android:layout_marginTop="5dp"
                 android:text="Address" />
+
+            <TextView
+                android:theme="@style/doctor_address"
+                android:id="@+id/opens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="50dp"
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                android:layout_marginTop="5dp"
+                android:text="" />
 
 
 
@@ -70,30 +95,21 @@
 
 
 
-<!--            <TextView-->
-<!--                android:drawableLeft="@drawable/ic_near_me_black_24dp"-->
-<!--                android:id="@+id/distance_of_doctors"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="27dp"-->
-<!--                android:layout_marginLeft="3dp"-->
-
-
-<!--                android:text="Distance"/>-->
 
 
 
-<!--            <TextView-->
-<!--                android:theme="@style/rating"-->
-<!--                android:id="@+id/rating_of_doctors"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="27dp"-->
-<!--                android:layout_marginLeft="15dp"-->
-<!--                android:layout_marginRight="15dp"-->
-<!--                android:layout_marginStart="10dp"-->
-<!--                android:drawableLeft="@drawable/ic_star_border_black_24dp"-->
-<!--                android:text="4.5"/>-->
+
+            <TextView
+                android:theme="@style/rating"
+                android:id="@+id/rating_of_doctors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="10dp"
+                android:drawableLeft="@drawable/ic_star_border_black_24dp"
+                android:text="4.5"/>
 
         </LinearLayout>
 

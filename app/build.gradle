@@ -37,8 +37,10 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:17.0.0'
     implementation "androidx.recyclerview:recyclerview:1.0.0"
     implementation 'com.karumi:dexter:6.0.0'
-
+//    implementation'androidmads.library.qrgenearator:QRGenearator:1.0.3'
 
     implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
 
 }
