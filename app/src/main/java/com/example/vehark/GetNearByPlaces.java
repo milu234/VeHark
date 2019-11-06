@@ -75,15 +75,15 @@ public class GetNearByPlaces extends AsyncTask<Object,String , String> implement
 
 
 
-            if (nameOfPlace.contains("Hotels") || (nameOfPlace.contains("Restraunts")) || nameOfPlace.contains("Resorts") ){
+            if (nameOfPlace.contains("Hotel") || (nameOfPlace.contains("Service")) || nameOfPlace.contains("IMAX") || nameOfPlace.contains("Bank") || nameOfPlace.contains("Metro") || nameOfPlace.contains("Residency") || nameOfPlace.contains("Airtel") || nameOfPlace.contains("Cottage") ){
                 markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.parking_barrier));
             }
-            if(nameOfPlace.contains("Bank")){
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.parking));
+            if(nameOfPlace.contains("Gas") || nameOfPlace.contains("Enterprise") || nameOfPlace.contains("Automobiles") || nameOfPlace.contains("Industries")){
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.car_repair));
             }
 
-            if (nameOfPlace.contains("Parking") || (nameOfPlace.contains("Bank")) || (nameOfPlace.contains("Park")) ) {
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.parking_plot));
+            if (nameOfPlace.contains("Petroleum") || (nameOfPlace.contains("Honda")) || (nameOfPlace.contains("Care")) || (nameOfPlace.contains("Motoshines")) || (nameOfPlace.contains("Salon")) ) {
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.mipmap.car_wash));
             }
 
 

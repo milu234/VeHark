@@ -109,6 +109,7 @@
                         android:textAllCaps="true"
                         android:fontFamily="sans-serif-light"
                         android:textSize="15sp"
+
                         android:textColor="@color/white"/>
 
                     <EditText
@@ -121,6 +122,7 @@
                         android:paddingRight="15dp"
                         android:textColor="@color/white"
                         android:textSize="15sp"
+                        android:inputType="textPassword"
                         android:layout_marginTop="5dp" />
 
 

@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 sendVerificationCode();
+//                Toast.makeText(MainActivity.this, "Please Wait Code will be send !!", Toast.LENGTH_SHORT).show();
 
             }
         });

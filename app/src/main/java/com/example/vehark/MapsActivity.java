@@ -75,8 +75,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private double hlat;
     private double hlng;
     private MarkerOptions place2;
-    private  double hospital_latitude;
-    private  double hospital_longitude;
+
 
 
 
@@ -139,15 +138,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //        double ulat = intent.getDoubleExtra("hlat",0);
 //        double ulng = intent.getDoubleExtra("hlng",0);
 //
-//        hospital_latitude = ulat;
-//        hospital_longitude = ulng;
+//
 //
 //        LatLng hlatLng = new LatLng(ulat,ulng);
 //
 //        mMap.clear();
 //        place2 = new MarkerOptions().position(hlatLng);
 //        Log.d("mylog", "Added Markers");
-//        mMap.addMarker(place2).setIcon(BitmapDescriptorFactory.fromResource(R.mipmap.hospital));
+
 //        mMap.moveCamera(CameraUpdateFactory.newLatLng(hlatLng));
 //        mMap.moveCamera(CameraUpdateFactory.zoomTo(10));
 

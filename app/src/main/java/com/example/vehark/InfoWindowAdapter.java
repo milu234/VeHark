@@ -38,15 +38,15 @@ public class InfoWindowAdapter implements GoogleMap.InfoWindowAdapter {
 
         // TextView tvLng = (TextView) v.findViewById(R.id.tv_lng);
         String nameofplace = marker.getTitle();
-        if (nameofplace.contains("Residency") || (nameofplace.contains("Restraunts")) || nameofplace.contains("Dhabba") || nameofplace.contains("Hotels")){
-            imageView.setImageResource(R.drawable.car);
+        if (nameofplace.contains("Hotel") || (nameofplace.contains("Service")) || nameofplace.contains("IMAX") || nameofplace.contains("Bank") || nameofplace.contains("Metro") || nameofplace.contains("Residency") || nameofplace.contains("Airtel") || nameofplace.contains("Cottage") ){
+            imageView.setImageResource(R.mipmap.parking_plot);
         }
-        if(nameofplace.contains("Medical") || nameofplace.contains("Bank")  ) {
-            imageView.setImageResource(R.drawable.car);
+        if(nameofplace.contains("Gas") || nameofplace.contains("Automobiles") || nameofplace.contains("Industries") || nameofplace.contains("Enterprise")  ) {
+            imageView.setImageResource(R.mipmap.car_repair);
         }
 
-        if (nameofplace.contains("Petrol") || (nameofplace.contains("Pump")) || (nameofplace.contains("Clinic")) ) {
-            imageView.setImageResource(R.drawable.car);
+        if (nameofplace.contains("Petroleum") || (nameofplace.contains("Honda")) || (nameofplace.contains("Care")) || (nameofplace.contains("Motoshines")) || (nameofplace.contains("Salon")) ) {
+            imageView.setImageResource(R.mipmap.info_car_wash);
         }
         nameOfPlace.setText(marker.getTitle());
         vicinity.setText(marker.getSnippet());
