@@ -15,7 +15,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.vehark.InfoPage;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -28,7 +27,6 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -429,7 +427,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         googleURL.append("&sensor=true");
-        googleURL.append("&key=" + "AIzaSyBEXojLNEIYeKmyBdshlDooE-o-JfZCCsU");
+        googleURL.append("&key=" + "AIzaSyAb5A7jKDxhu0duhmPdY896K3BAJuiq-rg");
 
         Log.d("GoogleMapActivity","url = " + googleURL.toString());
 
