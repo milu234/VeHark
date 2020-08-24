@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Vehark</string>
-    <string name="google_maps_key">AIzaSyAb5A7jKDxhu0duhmPdY896K3BAJuiq-rg</string>
+    <string name="google_maps_key">AIzaSyBa92tJQoOhSCtQHt4gTBzSx9aPefJc3uI</string>
     <string name="title_activity_maps2">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
